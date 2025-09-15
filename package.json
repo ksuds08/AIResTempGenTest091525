@@ -5,7 +5,8 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "cf-worker": "wrangler build"
+    "cf-worker": "wrangler build",
+    "deploy": "npx wrangler publish"
   },
   "dependencies": {
     "react": "^17.0.2",

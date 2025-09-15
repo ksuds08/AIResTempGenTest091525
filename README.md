@@ -10,7 +10,7 @@ This application generates beautiful industry-relevant resume templates using AI
 1. Clone the repository
 2. Run `npm install`
 3. Start the development server with `npm run dev`
-4. Deploy to Cloudflare Workers with `wrangler publish`
+4. Deploy to Cloudflare Workers with `npm run deploy`
 
 ## Usage
 Press the "Generate Resume" button to create a resume template. 
