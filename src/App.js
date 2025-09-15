@@ -3,9 +3,10 @@ import React, { useState } from 'react';
 const App = () => {
   const [template, setTemplate] = useState('');
 
-  const handleGenerate = () => {
-    // Logic for resume template generation
-    setTemplate('<h2>Your Beautiful Resume</h2>');
+  const handleGenerate = async () => {
+    const response = await fetch('/api/generate-resume', { method: 'POST' });
+    const data = await response.json();
+    setTemplate(data.template);
   };
 
   return (

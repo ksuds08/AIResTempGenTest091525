@@ -1,0 +1,13 @@
+[env.production]
+name = "ai-resume-generator"
+type = "javascript"
+account_id = "your_account_id"
+workers_dev = true
+compatibility_date = "2023-10-01"
+
+[build]
+command = "npm run build"
+
+[[routes]]
+pattern = "yourdomain.com/api/generate-resume"
+zone_id = "your_zone_id"
