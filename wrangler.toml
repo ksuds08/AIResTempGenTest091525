@@ -11,3 +11,10 @@ command = "npm run build"
 [[routes]]
 pattern = "yourdomain.com/api/generate-resume"
 zone_id = "your_zone_id"
+
+[commands]
+
+[deploy]
+
+[build]
+[env.production]
